@@ -4,6 +4,8 @@
 # Purpose: Python 3.x code testbed, NOT compatible with Python 2.x.
 # Initial Release Date: May 9, 2019
 # --------------------------------------------------------------------
+# Work Log.  2019-05-10 Add git versioning control.
+
 
 
 
