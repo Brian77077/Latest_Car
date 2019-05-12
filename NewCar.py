@@ -3,7 +3,7 @@
 
 # --------------------------------------------------------------------
 # By: Brian Salinas
-#     brian.salinas.engineer@gmail.com
+#     https://github.com/Brian77077/Latest_Car
 # Purpose: Python 3.x code testbed, NOT compatible with Python 2.x.
 # Initial Release Date: May 9, 2019
 # --------------------------------------------------------------------
@@ -48,6 +48,11 @@ class Car:
         else:
             pass
 
+    def check_speeding(self):
+        if self.speed < 15:
+            print("Not speeding")
+        else:
+            print("Slow down!)")
 
 if __name__ == '__main__':
 
@@ -76,3 +81,4 @@ if __name__ == '__main__':
 
         my_car.step()
         my_car.say_state()
+        my_car.check_speeding()

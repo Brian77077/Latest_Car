@@ -5,15 +5,18 @@
 # Simple algorithm to count
 # number of occurrences of (n) in (ar)
 
-# Sudo: Algorithm
+# Algorithm: Functionality
 # 	each time (n) is found in (ar)
-# 	(count) varible in incremented (by 1)
-
-# I've put spaces to separate different
-# stages of algorithms for easy understanding
-# however isn't a good practise
+# 	(count) variable in incremented (by 1)
 
 def count(ar, n):
+    """
+    This function accepts two arguments.  for an instructional video see: https://www.youtube.com/watch?v=zY0ZGwvFHJk
+
+    :param ar: Can be an array
+    :param n:  Is what you're looking for
+    :return:  updates count.
+    """
     count = 0
 
     for element in ar:

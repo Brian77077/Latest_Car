@@ -1,0 +1,12 @@
+# --------------------------------------------------------------------
+# By: Brian Salinas
+#     https://github.com/Brian77077/Latest_Car
+# Purpose: Spot to note my ideas & what was accomplished that day.
+# Initial Release Date: May 12, 2019
+# --------------------------------------------------------------------
+#
+#       Date            Description
+#       2019-05-12      Spent a fair amount time troubleshooting PIP install issues, it turned out that
+#                       it was a "user rights/Windows" issue and was fixed by " --user".
+#                       I never did get Pytest to work out since I switched Pycharms, but i'll have to mess
+#                       with that later, i'm pleased to have gotten Sphinx installed & working correctly.
