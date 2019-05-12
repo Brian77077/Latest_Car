@@ -1,9 +1,9 @@
 # Car_Controller
 > Testbed for Python language.  Is used to control various aspects of a car's performance.
 
-[![NPM Version][npm-image]]
-[![Build Status][brian-image]]
-[![Downloads Stats][npm-downloads]]
+![NPM Version][npm-image]
+![Build Status][brian-image]
+![Downloads Stats][npm-downloads]
 
 Car_Controller allows the user to speed up, slow down or query performance details.  It also provides feedback on user inputs.
 
