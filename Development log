@@ -8,5 +8,5 @@
 #       Date            Description
 #       2019-05-12      Spent a fair amount time troubleshooting PIP install issues, it turned out that
 #                       it was a "user rights/Windows" issue and was fixed by " --user".
-#                       I never did get Pytest to work out since I switched Pycharms, but i'll have to mess
+#                       I never did get Pytest to work out since I switched Pycharms, but I'll have to mess
 #                       with that later, i'm pleased to have gotten Sphinx installed & working correctly.
