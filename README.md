@@ -1,11 +1,11 @@
-# Car_Controller
-> Testbed for Python language.  Is used to control various aspects of a car's performance.
+# car_controller
+> car_controller modules is a testbed for the Python language.  It is used to control various aspects of a car's performance.
 
 ![GIT Version][git-image]
 ![Build Status][brian-image]
 ![Downloads Stats][npm-downloads]
 
-Car_Controller allows the user to speed up, slow down or query performance details.  It also provides feedback on user inputs.
+car_controller module allows the user to speed up, slow down or query performance details.  It also provides feedback on user inputs.
 
 ![Header][car-header]
 
