@@ -7,14 +7,15 @@
 # Purpose: Python 3.x code testbed, NOT compatible with Python 2.x.
 # Initial Release Date: May 9, 2019
 # --------------------------------------------------------------------
-# Work Log.  2019-05-10 Add git versioning control.  Also created a repository on GitHub to share file.
-#
+
+import car_controller
+
 
 class Car:
 
-#   Set initial variables for object Car.  It is important to call init & self this way, so that speed
-#       and any other object properties remain persistant in memory, otherwise the values will be lost
-#       when the method goes out of scope.
+    # Set initial variables for object Car.  It is important to call init & self this way, so that speed
+    # and any other object properties remain persistent in memory, otherwise the values will be lost
+    # when the method goes out of scope.
     def __init__(self, speed=0):
         # this init & self callouts will pass the following declarations to each instance of class Car.
         self.speed = speed
@@ -38,7 +39,7 @@ class Car:
 
     def step(self):
         self.odometer += self.speed
-#     Add two hrs to the time with every step vs. 1 hr.
+        #     Add two hrs to the time with every step vs. 1 hr.
         self.time += 2
         print("two hrs added to time counter.")
 
@@ -49,22 +50,24 @@ class Car:
             pass
 
     def check_speeding(self):
+        print(car_controller.status())  # Should print status message.
         if self.speed < 15:
             print("Not speeding")
         else:
             print("Slow down!)")
 
+
 if __name__ == '__main__':
 
-#   Now show if this file is the main or is imported.
+    # Now show if this file is the main or is imported.
     print("Car.py is being run directly, it is not being imported.")
 
-#   My_car is an instance of the Car() Class.
+    # My_car is an instance of the Car() Class.
     my_car = Car()
     print("I'm a car!")
     while True:
         action = input("What should I do? [A]ccelerate, [B]rake, "
-                 "show [O]dometer, or show average [S]peed?").upper()
+                       "show [O]dometer, or show average [S]peed?").upper()
         if action not in "ABOST" or len(action) != 1:
             print("I don't know how to do that")
             continue
