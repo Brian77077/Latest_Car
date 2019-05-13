@@ -1,7 +1,7 @@
 # Car_Controller
 > Testbed for Python language.  Is used to control various aspects of a car's performance.
 
-![NPM Version][npm-image]
+![GIT Version][git-image]
 ![Build Status][brian-image]
 ![Downloads Stats][npm-downloads]
 
@@ -29,7 +29,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [https://github.com/Brian77077](https://github.com/Brian77077)
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/badge/npm-v0.0.1-orange.svg
+[git-image]: https://img.shields.io/badge/github-v0.0.1-brightgreen.svg
 [car-header]: https://github.com/Brian77077/Latest_Car/blob/master/img/maxresdefault.jpg
 [npm-downloads]: https://img.shields.io/badge/downloads-0%2Fmonth-yellowgreen.svg
 [brian-image]: https://img.shields.io/badge/build-passing-green.svg
