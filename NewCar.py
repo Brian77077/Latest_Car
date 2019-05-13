@@ -21,6 +21,7 @@ class Car:
         self.speed = speed
         self.odometer = 0
         self.time = 0
+        self.counta = 0
 
     def say_state(self):
         print("I'm going {} kph!".format(self.speed))
@@ -30,6 +31,8 @@ class Car:
 
     def accelerate(self):
         self.speed += 5
+        self.counta += 1        # This counter will let the user know how many times they
+                                # hit the accelerator.
 
     def brake(self):
         if self.speed < 5:
@@ -55,6 +58,7 @@ class Car:
             print("Not speeding")
         else:
             print("Slow down!)")
+            print("You have hit the accelerator {} tmes".format(self.counta))
 
 
 if __name__ == '__main__':
