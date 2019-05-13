@@ -6,7 +6,7 @@ car_controller module allows the user to speed up, slow down or query performanc
 .. image:: img/github-v0.0.1-brightgreen.svg 
    :width: 31 %
 
-.. image:: img/build-passing-green.svg  
+.. image:: img/build-passing-green.jpg  
    :width: 31 %
 
 .. image:: img/downloads-0_month-yellowgreen.svg
