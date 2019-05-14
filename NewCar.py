@@ -71,8 +71,8 @@ if __name__ == '__main__':
     print("I'm a car!")
     while True:
         action = input("What should I do? [A]ccelerate, [B]rake, "
-                       "show [O]dometer, or show average [S]peed?").upper()
-        if action not in "ABOST" or len(action) != 1:
+                       "show [O]dometer, or show average [S]peed?\n[E]xit Console").upper()
+        if action not in "ABOSTE" or len(action) != 1:
             print("I don't know how to do that")
             continue
         if action == 'A':
@@ -85,6 +85,8 @@ if __name__ == '__main__':
             print("The car's average speed was {} kph".format(my_car.average_speed()))
         elif action == 'T':
             print("I added this text")
+        elif action =='E':
+            exit(0)
 
         my_car.step()
         my_car.say_state()
