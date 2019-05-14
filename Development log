@@ -10,3 +10,12 @@
 #                       it was a "user rights/Windows" issue and was fixed by " --user".
 #                       I never did get Pytest to work out since I switched Pycharms, but I'll have to mess
 #                       with that later, i'm pleased to have gotten Sphinx installed & working correctly.
+#       2019-05-13      Updated readme.rst  However i wasn't all that impressed with it's look, the MD
+#                       file had a better look, and while it's used here and there, overall it's not the
+#                       too i'm looking for.  Sphinx is interesting, but also, the final product is fairly
+#                       basic and requires a fair amount of work.  So that being said, I'll continue to
+#                       add comments as necessary (no comments for things the programmer can see by
+#                       inspection).  I also installed Kivy.  it took a while, but Pycharm had an update
+#                       to fix the PIP/SSL but, which was key to getting Kivy to work in PyCharm.  Another
+#                       key detail is to use the Kivy python.exe on ALL Kivy projects, or nothing will work
+#                       I'm excited about what the future holds.
