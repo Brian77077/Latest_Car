@@ -12,7 +12,7 @@
 #                       with that later, i'm pleased to have gotten Sphinx installed & working correctly.
 #       2019-05-13      Updated readme.rst  However i wasn't all that impressed with it's look, the MD
 #                       file had a better look, and while it's used here and there, overall it's not the
-#                       too i'm looking for.  Sphinx is interesting, but also, the final product is fairly
+#                       tool i'm looking for.  Sphinx is interesting, but also, the final product is fairly
 #                       basic and requires a fair amount of work.  So that being said, I'll continue to
 #                       add comments as necessary (no comments for things the programmer can see by
 #                       inspection).  I also installed Kivy.  it took a while, but Pycharm had an update
