@@ -33,6 +33,5 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [git-image]: https://img.shields.io/badge/github-v0.0.1-brightgreen.svg
 [car-header]: https://github.com/Brian77077/Latest_Car/blob/master/img/maxresdefault.jpg
 [npm-downloads]: https://img.shields.io/badge/downloads-0%2Fmonth-yellowgreen.svg
-# [git-image2]: https://github.com/Brian77077/Latest_Car/blob/master/img/python.jpg
 [brian-image]: https://img.shields.io/badge/build-passing-green.svg
 
