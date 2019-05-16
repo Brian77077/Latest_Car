@@ -19,3 +19,10 @@
 #                       to fix the PIP/SSL but, which was key to getting Kivy to work in PyCharm.  Another
 #                       key detail is to use the Kivy python.exe on ALL Kivy projects, or nothing will work
 #                       I'm excited about what the future holds.
+#       2019-05-15      Today i installed pyinstaller, so i could get a distro from the scripts.  The installer
+#                       didn't go with PyCharm well AT ALL, hoever i finally figured it out with the following help:
+#                       https://stackoverflow.com/questions/19071910/how-to-my-exe-from-pycharm-project
+#                       https://stackoverflow.com/questions/12059509/create-a-single-executable-from-a-python-project/12059644#12059644
+#                       Especially this one:
+#                       https://stackoverflow.com/questions/33906539/configuring-pycharm-to-run-pyinstaller
+#
