@@ -25,4 +25,4 @@
 #                       https://stackoverflow.com/questions/12059509/create-a-single-executable-from-a-python-project/12059644#12059644
 #                       Especially this one:
 #                       https://stackoverflow.com/questions/33906539/configuring-pycharm-to-run-pyinstaller
-#
+#                       ** Go to the "Dist" folder, not "build".
