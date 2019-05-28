@@ -5,6 +5,7 @@
 ![Build Status][brian-image]
 ![Downloads Stats][npm-downloads]
 <img src="https://github.com/Brian77077/Latest_Car/blob/master/img/python.jpg" height="20">
+<img src="https://github.com/Brian77077/Latest_Car/blob/master/img/Windows_10_Logo.svg" height="20">
 
 car_controller module allows the user to speed up, slow down or query performance details.  It also provides feedback on user inputs.
 
